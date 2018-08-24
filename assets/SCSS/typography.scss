@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tajawal');
+
+
+//Font family for Title and subtitle class  
+.title, .subtitle{
+    font-family: 'Segoe UI', sans-serif !important;
+    font-weight: 700 !important;
+
+}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+
+.has-space{
+	letter-spacing: $letter-spacing;
+}
