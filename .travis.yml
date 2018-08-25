@@ -11,7 +11,7 @@ branches:
   - master
 
 install:
-  - npm install
+  - yarn add
   - npm run generate
 
 script:
