@@ -25,7 +25,10 @@ module.exports = {
   },
    modules: [
   // provide path to the file with resources
-  ['nuxt-sass-resources-loader', './assets/scss/main.scss']
+  'nuxt-sass-resources-loader'
+  ],
+  sassResources:[
+     './assets/scss/main.scss'
   ],
   ...routerBase,
   /*
