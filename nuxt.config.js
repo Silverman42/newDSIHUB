@@ -23,13 +23,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-   modules: [
-  // provide path to the file with resources
-  'nuxt-sass-resources-loader'
-  ],
-  sassResources:[
-     './assets/scss/main.scss'
-  ],
+   modules: ['nuxt-sass-resources-loader'],
+  sassResources: ['@/assets/scss/main.scss'],
   ...routerBase,
   /*
   ** Customize the progress bar color
