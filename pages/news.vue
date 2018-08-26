@@ -37,7 +37,7 @@
 </div>
 </template>
 <script>
-	import DataCard from "~/components/dataCard";
+	import DataCard from "../components/dataCard";
 	export default{
 		head:{
 			title: 'News from the blog :: DSIHUB'

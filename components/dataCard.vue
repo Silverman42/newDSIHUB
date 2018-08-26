@@ -113,7 +113,7 @@
 				bgPic: {
 					type: String,
 					default:function() {
-						return './img/default-bg.jpg'
+						return 'img/default-bg.jpg'
 					}
 				},
 				cardWidth: {

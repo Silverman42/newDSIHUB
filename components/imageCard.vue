@@ -31,7 +31,7 @@
 			imageSrc:{
 				type: String,
 				default(){
-					return "/img/default-bg.jpg"
+					return "img/default-bg.jpg"
 				}
 			},
 			//Image Title

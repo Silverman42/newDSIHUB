@@ -13,10 +13,10 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
-	import Sponsors from "~/components/sponsors";
-	import DataCard from "~/components/dataCard";
-	import Modal from "~/components/modal";
+	import Landing from "../components/landing";
+	import Sponsors from "../components/sponsors";
+	import DataCard from "../components/dataCard";
+	import Modal from "../components/modal";
 	import Faculties from "../assets/JSON/faculty.json";
 	export default{
 		head:{
@@ -37,7 +37,7 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/faculty/coding.svg",
+					value: "img/faculty/coding.svg",
 					active: true
 				},
 				facultyData: Faculties,

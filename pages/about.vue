@@ -21,10 +21,10 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
-	import Sponsors from "~/components/sponsors";
-	import PicCard from "~/components/picCard";
-	import Hero from "~/components/heroSection";
+	import Landing from "../components/landing";
+	import Sponsors from "../components/sponsors";
+	import PicCard from "../components/picCard";
+	import Hero from "../components/heroSection";
 	import About from "../assets/JSON/about.json";
 	export default{
 		
@@ -46,14 +46,14 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/landing/about.svg",
+					value: "img/landing/about.svg",
 					active: true
 				},
 				aboutData: About,
 				commendation:{
 					name: "Dr Ifeanyi Okowa",
 					title: 'Governor, Delta State',
-					pic: "/img/gov.png"
+					pic: "img/gov.png"
 				}
 			}
 		}

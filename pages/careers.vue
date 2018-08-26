@@ -4,7 +4,7 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
+	import Landing from "../components/landing";
 	export default{
 		head:{
 			title: 'Careers : DSIHUB'
@@ -21,7 +21,7 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/career/flying-shoes.svg",
+					value: "img/career/flying-shoes.svg",
 					active: true
 				}
 			}
