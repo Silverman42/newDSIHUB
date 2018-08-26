@@ -171,7 +171,7 @@
 </script>
 <style lang="scss">
 	%bg-structure{
-		background: url(/img/feature_bg.svg) no-repeat;
+		background: url(~/static/img/feature_bg.svg) no-repeat;
 		background-size:  contain;
 	background-repeat:   no-repeat;
 	background-position: center;

@@ -84,17 +84,17 @@
             <div class="columns is-centered is-mobile">
               <div class="column is-4">
                 <a href="" class="image img-is-centered is-block is-24x24">
-                  <img src="/img/003-facebook.svg">
+                  <img src="img/003-facebook.svg">
                 </a>
               </div>
               <div class="column is-4">
                 <a href="" class="image img-is-centered is-block is-24x24">
-                  <img src="/img/005-twitter.svg">
+                  <img src="img/005-twitter.svg">
                 </a>
               </div>
               <div class="column is-4">
                 <a href="" class="image img-is-centered is-block is-24x24">
-                  <img src="/img/004-google-plus.svg">
+                  <img src="img/004-google-plus.svg">
                 </a>
               </div>
             </div>
