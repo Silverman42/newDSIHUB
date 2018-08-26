@@ -10,6 +10,13 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
 
 module.exports = {
   /*
+  ** Transition of each page
+  */
+  transition:{
+    name: "slideout",
+    mode: "out-in"
+  },
+  /*
   ** Headers of the page
   */
   head: {
@@ -30,6 +37,14 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#0c82d1' },
+  generate: {
+    /*
+    ** Build output, default is ./dist
+    ** This demo site is deployed to Github Pages with a custom domain name
+    ** Github Pages will use ./docs for site root
+    */
+    dir: 'docs'
+  },
   /*
   ** Build configuration
   */

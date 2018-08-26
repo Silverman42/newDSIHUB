@@ -31,7 +31,6 @@
 	import DataCard from "~/components/dataCard";
 	import Services from "../assets/JSON/services.json";
 	export default{
-		transition:"slideout",
 		head:{
 			title: 'Services : DSIHUB'
 		},

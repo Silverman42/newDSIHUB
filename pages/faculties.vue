@@ -19,7 +19,6 @@
 	import Modal from "~/components/modal";
 	import Faculties from "../assets/JSON/faculty.json";
 	export default{
-		transition:"slideout",
 		head:{
 			title: 'Faculties : DSIHUB'
 		},
