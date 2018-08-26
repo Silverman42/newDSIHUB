@@ -97,7 +97,7 @@
 		-webkit-align-items: center;
 	}
 	.landing-bg{
-		background : url(/img/landing/landing_bg.svg) no-repeat;
+		background : url(~/static/img/landing/landing_bg.svg) no-repeat;
 		background-size: cover;
 		background-position: center;
 	}
