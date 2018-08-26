@@ -27,7 +27,7 @@
 	import Hero from "~/components/heroSection";
 	import About from "../assets/JSON/about.json";
 	export default{
-		transition:"slideout",
+		
 		head:{
 			title: 'About Us :: DSIHUB'
 		},

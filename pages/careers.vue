@@ -6,7 +6,6 @@
 <script>
 	import Landing from "~/components/landing";
 	export default{
-		transition:"slideout",
 		head:{
 			title: 'Careers : DSIHUB'
 		},

@@ -31,7 +31,6 @@
 	import Gallery from "../assets/JSON/gallery.json";
 	import Modal from "~/components/modal";
 	export default{
-		transition:"slideout",
 		head:{
 			title: 'Gallery :: DSIHUB'
 		},

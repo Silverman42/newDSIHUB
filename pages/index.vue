@@ -118,7 +118,7 @@
 	import DataCard from "~/components/dataCard";
 	import Sponsors from "~/components/sponsors";
 	export default{
-		transition:"slideout",
+		
 		head:{
 			title: 'Welcome to DSIHUB'
 		},

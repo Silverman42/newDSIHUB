@@ -39,7 +39,6 @@
 <script>
 	import DataCard from "~/components/dataCard";
 	export default{
-		transition:"slideout",
 		head:{
 			title: 'News from the blog :: DSIHUB'
 		},
