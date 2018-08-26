@@ -103,8 +103,8 @@
 				<data-card :head="blogPost.head" :foot="blogPost.foot" :body="blogPost.body" :cardWidth="['is-4']"></data-card>
 			</div>
 			<div class="has-padding pv2">
-				<nuxt-link to="/news" class="button is-info is-rounded is-shadowed has-padding pv3">
-					<b>Read More</b>
+				<nuxt-link to="/news" class="button is-info is-rounded is-shadowed is-size-7 is-uppercase has-space has-padding pv2">
+					Read More
 				</nuxt-link>
 			</div>
 		</div>
@@ -171,7 +171,7 @@
 </script>
 <style lang="scss">
 	%bg-structure{
-		background: url(~/static/img/feature_bg.svg) no-repeat;
+		background: url(../static/img/feature_bg.svg) no-repeat;
 		background-size:  contain;
 	background-repeat:   no-repeat;
 	background-position: center;
