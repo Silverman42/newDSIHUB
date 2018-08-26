@@ -30,10 +30,10 @@
 						</div>
 					</div>
 					<div class="column is-6">
-						<div v-for="(data, type, index) in modalData" :key="index" class="has-margin mv2" v-if="!nullContent.includes(type)">	
+						<div v-for="(data, type, index) in modalData" :key="index" class="has-margin mv3" v-if="!nullContent.includes(type)">	
 							<h1 class="title is-size-6 modal_content-title">{{type}}</h1>
-							<nuxt-link :to="data" v-if="type == 'applyLink'" class="button is-rounded is-info is-outlined">
-								<b>Click here to apply</b>
+							<nuxt-link :to="data" v-if="type == 'applyLink'" class="button is-rounded is-info is-size-7 is-uppercase has-space has-padding pv2">
+								Click here to apply
 							</nuxt-link>
 							<p v-else class="has-text-justified is-size-6">
 								{{data}}
@@ -43,8 +43,8 @@
 				</div>
 			</div>
 			<div class="column is-10 has-text-right">
-				<a @click.prevent="previousData()" class="button is-info is-rounded is-shadowed has-padding pv2"><b>Previous</b></a>&nbsp;&nbsp;
-				<a @click.prevent="nextData()" class="button is-info is-rounded is-shadowed has-padding pv2"><b>Next</b></a>
+				<a @click.prevent="previousData()" class="button is-info is-rounded is-outlined is-shadowed is-size-7 is-uppercase has-space has-padding pv2">Previous</a>&nbsp;&nbsp;
+				<a @click.prevent="nextData()" class="button is-info is-rounded is-outlined is-shadowed is-size-7 is-uppercase has-space has-padding pv2">Next</a>
 			</div>			
 		</section>
 	</div>

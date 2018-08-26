@@ -19,8 +19,8 @@
 			</div>
 			<div class="has-padding pv2">
 				<nav class="pagination is-rounded is-centered" role="navigation" aria-label="pagination">
-				  <a class="pagination-previous">Previous</a>
-				  <a class="pagination-next">Next page</a>
+				  <a class="pagination-previous is-size-7 is-uppercase has-space has-padding pv2">Previous</a>
+				  <a class="pagination-next is-size-7 is-uppercase has-space has-padding pv2">Next page</a>
 				  <ul class="pagination-list">
 				    <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
 				    <li><span class="pagination-ellipsis">&hellip;</span></li>

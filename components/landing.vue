@@ -9,8 +9,8 @@
 					{{bigHeader.value}}
 					</h1>
 					<div v-if="button.active" class="has-text-left has-padding pv1 ph1 has-text-centered-mobile">
-						<nuxt-link to="/about" class="button is-info is-rounded is-shadowed has-padding pv3">
-						<b>{{button.value}}</b>
+						<nuxt-link to="/about" class="button is-info is-rounded is-shadowed is-uppercase is-size-7 has-space has-padding pv2">
+						{{button.value}}
 						</nuxt-link>
 					</div>
 					<p v-if="legend.active" class="is-size-6 has-padding pv1 ph1 has-text-centered-mobile" v-html="legend.value">{{legend.value}}</p>
@@ -97,7 +97,7 @@
 		-webkit-align-items: center;
 	}
 	.landing-bg{
-		background : url(~/static/img/landing/landing_bg.svg) no-repeat;
+		background : url(../static/img/landing/landing_bg.svg) no-repeat;
 		background-size: cover;
 		background-position: center;
 	}

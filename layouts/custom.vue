@@ -53,28 +53,27 @@
               <div class="column is-12-mobile is-6-tablet is-size-6">
                 <div class="has-padding pv2 ph2">
                   <h4 class="title is-size-6 has-text-grey-darker">Quick Links</h4>
-                  <p class="has-text-grey-dark">Home</p>
-                  <p class="has-text-grey-dark">About Us</p>
-                  <p class="has-text-grey-dark">Faculties</p>
-                  <p class="has-text-grey-dark">Services</p>
-                  <p class="has-text-grey-dark">Gallery</p>
-                  <p class="has-text-grey-dark">News</p>
-                  <p class="has-text-grey-dark">Careers</p>
+                  <nuxt-link to="/" class="footer-links">Home</nuxt-link><br>
+                  <nuxt-link to="/about" class="footer-links">About Us</nuxt-link><br>
+                  <nuxt-link to="/faculties" class="footer-links">Faculties</nuxt-link><br>
+                  <nuxt-link to="/services" class="footer-links">Services</nuxt-link><br>
+                  <nuxt-link to="/gallery" class="footer-links">Gallery</nuxt-link><br>
+                  <nuxt-link to="/news" class="footer-links">News</nuxt-link><br>
+                  <nuxt-link to="/careers" class="footer-links">Careers</nuxt-link><br>
                 </div>            
               </div>
               <div class="column is-12-mobile is-6-tablet is-size-6">
                 <div class="has-padding pv2 ph2">
                   <h4 class="title is-size-6 has-text-grey-darker">Features</h4>
-                  <p class="has-text-grey-dark">Mobile application development</p>
-                  <p class="has-text-grey-dark">CBT Examinations</p>
-                  <p class="has-text-grey-dark">Media and Animations Training</p>
-                  <p class="has-text-grey-dark">E-Library and Research Facilities</p>    
-                  <p></p>
+                  <nuxt-link to="/services" class="footer-links">Mobile application development</nuxt-link><br>
+                  <nuxt-link to="/services" class="footer-links">CBT Examinations</nuxt-link><br>
+                  <nuxt-link to="/services" class="footer-links">Media and Animations Training</nuxt-link><br>
+                  <nuxt-link to="/services" class="footer-links">E-Library and Research Facilities</nuxt-link><br>
                 </div>        
               </div>
               <div class="column is-12-tablet has-padding pv2 ph2 has-text-centered-mobile">
                 <div class="has-padding pv2 ph2">
-                    <p class="is-size-6"><b>Copyright &copy; 2018 - All Rights Reserved - Delta State ICT Innovation Hub</b></p>
+                    <p class="is-size-6">Copyright &copy; 2018 - All Rights Reserved - Delta State ICT Innovation Hub</p>
                 </div>
               </div>
             </div>
@@ -178,5 +177,11 @@ export default {
 }
 .img-is-centered{
   margin: auto;
+}
+.footer-links{
+  color: grey;
+  &:focus, &:hover{
+    color: black;
+  }
 }
 </style>
