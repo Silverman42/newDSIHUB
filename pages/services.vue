@@ -26,9 +26,9 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
-	import Sponsors from "~/components/sponsors";
-	import DataCard from "~/components/dataCard";
+	import Landing from "../components/landing";
+	import Sponsors from "../components/sponsors";
+	import DataCard from "../components/dataCard";
 	import Services from "../assets/JSON/services.json";
 	export default{
 		head:{
@@ -48,7 +48,7 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/service/services.svg",
+					value: "img/service/services.svg",
 					active: true
 				},
 				services: Services,

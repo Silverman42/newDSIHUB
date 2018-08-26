@@ -22,7 +22,7 @@
 				</figure>
 				<div class="is-block illustration_bg">
 					<figure class="image is-5by4">
-						<img src="/img/DSIHUB_background.svg">	
+						<img src="img/DSIHUB_background.svg">	
 					</figure>
 				</div>
 			</div>

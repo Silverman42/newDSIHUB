@@ -26,10 +26,10 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
-	import ImageCard from "~/components/imageCard";
+	import Landing from "../components/landing";
+	import ImageCard from "../components/imageCard";
 	import Gallery from "../assets/JSON/gallery.json";
-	import Modal from "~/components/modal";
+	import Modal from "../components/modal";
 	export default{
 		head:{
 			title: 'Gallery :: DSIHUB'
@@ -48,7 +48,7 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/gallery/photo-camera.svg",
+					value: "img/gallery/photo-camera.svg",
 					active: true
 				},
 				gallery: Gallery,

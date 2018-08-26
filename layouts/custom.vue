@@ -5,7 +5,7 @@
       <div class="navbar">
         <div class="navbar-brand">
           <nuxt-link to='/' class="navbar-item">
-                <img width="80" height="80" src="/img/DS_LOGO.png">
+                <img width="80" height="80" src="img/DS_LOGO.png">
           </nuxt-link>
           <a role="button" class="navbar-burger" :class="{'is-active': toggleNavMenu}" aria-label="menu" aria-expanded="false" @click= "toggleNavMenu = !toggleNavMenu" >
             <span aria-hidden="true"></span>

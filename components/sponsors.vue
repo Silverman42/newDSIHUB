@@ -9,22 +9,22 @@
 			<div class="columns is-centered is-multiline is-mobile has-margin mv2 icon-contain">
 				<div class="column is-6-mobile is-3-desktop has-padding pv2">
 					<a class="image is-64x64 is-block image-center">
-						<img src="/img/sponsors/zenith-bank.png">
+						<img src="img/sponsors/zenith-bank.png">
 					</a>
 				</div>
 				<div class="column is-6-mobile is-3-desktop has-padding pv2">
 					<a class="image is-64x64 is-block image-center">
-						<img src="/img/sponsors/MainOne.png">
+						<img src="img/sponsors/MainOne.png">
 					</a>
 				</div>
 				<div class="column is-6-mobile is-3-desktop has-padding pv2">
 					<a class="image is-64x64 is-block image-center">
-						<img src="/img/sponsors/GT-bank.png">
+						<img src="img/sponsors/GT-bank.png">
 					</a>
 				</div>
 				<div class="column is-6-mobile is-3-desktop has-padding pv2">
 					<a class="image is-64x64 is-block image-center">
-						<img src="/img/sponsors/deltastate.png">
+						<img src="img/sponsors/deltastate.png">
 					</a>
 				</div>
 			</div>

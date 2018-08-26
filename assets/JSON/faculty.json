@@ -7,7 +7,7 @@
 		"cursory": "This is a leadership training aimed at equipping leaders in managerial fields and political sectors to aquire those skills needed to manage and lead positions of critique value",
 		"availability":"No",
 		"applyLink": "",
-		"bg": "/img/faculty/e-voting_africa.jpg"
+		"bg": "img/faculty/e-voting_africa.jpg"
 	},
 	{
 		"title":"Software and AutoCAD Platform",
@@ -17,7 +17,7 @@
 		"cursory": "AutoCAD training and other 3d training",
 		"availability":"Yes",
 		"applyLink": "/courselogin",
-		"bg": "/img/faculty/software_africa.png"
+		"bg": "img/faculty/software_africa.png"
  	},
 	{
 		"title":"ICT Innovation Platform",
@@ -27,7 +27,7 @@
 		"cursory": "This is a creative an thinking out-of-the-box concepts for young enterprenurs",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/innovation_africa.jpg"
+		"bg": "img/faculty/innovation_africa.jpg"
  	},
 	{
 		"title":"Electronics and Multimedia Development Center",
@@ -37,7 +37,7 @@
 		"cursory": "Usage of multimedia tools to create graphic contents. Students would be trained on the use of photoshop, fireworks media, flash, photo effects e.t.c. also 3d animations would be included",
 		"availability":"No",
 		"applyLink": "",
-		"bg": "/img/faculty/Electronic_Multi.png"
+		"bg": "img/faculty/Electronic_Multi.png"
 	},
 	{
 		"title":"E-Library, Research & E-Learning Centre",
@@ -47,7 +47,7 @@
 		"cursory": "This is where students, researchers and start ups can come and electronically research on various fields. thin server architecture is being employed with our high bandwidth to ensure the best in delivery",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/library.png"
+		"bg": "img/faculty/library.png"
 	},
 	{
 		"title":"CBT Practice & Mentoring Centre",
@@ -57,7 +57,7 @@
 		"cursory": "Where students learn how to use CBT and are mentored into using ICT for examinations and assessments",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/cbt_africa.jpg"	
+		"bg": "img/faculty/cbt_africa.jpg"	
 	},
 	{
 		"title":"Business Process Centre",
@@ -67,7 +67,7 @@
 		"cursory": "Business mentoring and tutorship. Trains start ups/entrepreneurs and general business owners on how to manage and sustain their business",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/business.png"
+		"bg": "img/faculty/business.png"
 	},
 	{
 		"title":"ICT Process Certification Centre",
@@ -77,7 +77,7 @@
 		"cursory": "This is the center for accreditation and certifying students on various computer related courses. works in hand with various private universities and professional tutors to achieve this",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/ict_process.png"
+		"bg": "img/faculty/ict_process.png"
 	},
 	{
 		"title":"Oil and Gas Department Training",
@@ -87,6 +87,6 @@
 		"cursory": "This faculty deals with the various skills and knoweldge required to successful start and an oil venture via the various ICT and Innovation platform available in the oil sector",
 		"availability":"Yes",
 		"applyLink": "/courselogin/",
-		"bg": "/img/faculty/Oil_&_gas.jpg"
+		"bg": "img/faculty/Oil_&_gas.jpg"
 	}
 ]

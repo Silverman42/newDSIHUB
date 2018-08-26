@@ -9,7 +9,7 @@
 					<nav class="level feature_bg">
 						<div class="level-item">
 							<figure class="image is-64x64">
-								<img src="/img/interview.svg">
+								<img src="img/interview.svg">
 							</figure>
 						</div>
 					</nav>
@@ -25,7 +25,7 @@
 					<nav class="level feature_bg">
 						<div class="level-item">
 							<figure class="image is-64x64">
-								<img src="/img/meeting-point.svg">
+								<img src="img/meeting-point.svg">
 							</figure>
 						</div>
 					</nav>
@@ -41,7 +41,7 @@
 					<nav class="level feature_bg">
 						<div class="level-item">
 							<figure class="image is-64x64">
-								<img src="/img/workspace.svg">
+								<img src="img/workspace.svg">
 							</figure>
 						</div>
 					</nav>
@@ -57,7 +57,7 @@
 					<nav class="level feature_bg">
 						<div class="level-item">
 							<figure class="image is-64x64">
-								<img src="/img/innovation.svg">
+								<img src="img/innovation.svg">
 							</figure>
 						</div>
 					</nav>
@@ -113,10 +113,10 @@
 </div>
 </template>
 <script>
-	import Landing from "~/components/landing";
-	import PicCard from "~/components/picCard";
-	import DataCard from "~/components/dataCard";
-	import Sponsors from "~/components/sponsors";
+	import Landing from "../components/landing";
+	import PicCard from "../components/picCard";
+	import DataCard from "../components/dataCard";
+	import Sponsors from "../components/sponsors";
 	export default{
 		
 		head:{
@@ -143,20 +143,20 @@
 					active: true
 				},
 				illustration:{
-					value: "/img/landing/desk.svg",
+					value: "img/landing/desk.svg",
 					active: true
 				},
 				commendations:[{
 					name: "Dr Ifeanyi Okowa",
 					title: 'Governor, Delta State',
 					quote: '"Delta State government endorses the establishment and mission of the Hub. Welcome to Delta State, a land of peace and promise. Blessed with a rich and diverse cultural heritage, Delta State is located in the south-south geopolitical zone of Nigeria, famous for her serene environment, minerals and oil rich lands and friendly occupants. We welcome Investors to our State and promise security and crime free environment for them to undertake the business ventures."',
-					pic: "/img/gov.png"
+					pic: "img/gov.png"
 				},
 				{
 					name: "Dr Ifeanyi Okowa",
 					title: 'Director, Delta State Innovation Hub',
 					quote: '"Welcome to Delta State Innovation Hub, where we aim to create a Smart Delta. The Hub is a one-stop Hub of ICT transactions going on around the clock. we are desirous to become the first internationally accredited regional centre of innovation and knowledge creation in the South-South of Nigeria.Located in Asaba - the State capital of the Oil & Gas rich Delta Region of Nigeria"',
-					pic: "/img/director.jpg"
+					pic: "img/director.jpg"
 				}
 				],
 				blogPost:{
