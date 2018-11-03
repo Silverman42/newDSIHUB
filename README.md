@@ -6,4 +6,4 @@ This is a proposed website built for Delta State Innovation Hub. It also my firs
  - Nuxt js (Based on Vuejs 2)
  - Font-Awesome
  
- [link](https://silverman42.github.io/newDSIHUB/)
+ [Link to the website](https://silverman42.github.io/newDSIHUB/)
